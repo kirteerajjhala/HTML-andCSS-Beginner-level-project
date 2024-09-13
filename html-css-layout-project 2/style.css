@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #7ADFFF;
+}
+.container{
+    max-width: 1200px;
+   min-height: 800px;
+    margin: 72px auto;
+    background-color: red;
+}

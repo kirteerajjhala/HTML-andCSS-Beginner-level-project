@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/1430041773/photo/watercolor-paper-background-texture-floral-border-background-in-green-with-leaf-and-flower.jpg?s=612x612&w=0&k=20&c=um_mJGTNWyMegAr2HDbbQ_IEo4hIfqdaMdojIe7ZZis=);
+    background-repeat: no-repeat;
+   background-size: cover;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.conten{
+    width: 300px;
+    height: 400px;
+    background-color: rgba(192, 51, 0, 0);
+    border: transparent;
+    border-radius: 15px;
+    box-shadow: 6px 6px 10px rgb(255, 68, 0),-6px -6px 10px rgb(255, 68, 0);
+    
+}
+.conten img{
+    width: 100%;
+   height: 270px;
+    padding: 20px;
+    border-radius: 50%;
+
+    border: 1px transparent black;
+    
+    
+   
+}
+.conten h3{
+    font-weight: 800;
+    text-align: center;
+    font-family: "Protest Guerrilla", sans-serif;
+}
+.conten h4{
+    font-family: "Protest Guerrilla", sans-serif;
+    color: rgb(255, 0, 51);
+    text-align: center;
+    margin: 7px;
+    font-size:20px;
+    font-weight: 700;
+
+}
+.bbox{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    column-gap: 5px;
+    padding: 10px 20px 0px 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    
+}
+.bbox #Remove{
+    font-weight: 700;
+    color: black;
+    background-color: #dadada;
+    text-align: center;
+  
+
+}
+.bbox button{
+    background-color: lightseagreen;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    margin: 5px;
+    cursor: pointer;
+ 
+}
+

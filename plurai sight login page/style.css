@@ -1,0 +1,179 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.mian-container{
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+
+   display: flex;
+}
+.left-child{
+    width: 40%;
+    height: 100vh;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.right-child{
+    width: 60%;
+    height: 100vh;
+   background-image: url(./login-bg.jpg);
+   background-position: center;
+   background-size: cover;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+form label{
+    font-size: 100%;
+    color: white;
+    margin-top: 20px;
+    margin-right: 170px;
+}
+form label.psw{
+   margin-right: 240px;
+}
+
+form input{
+    width: 300px;
+    height: 30px;
+    background:transparent;
+   border: 1px solid white;
+    border-radius: 5px;
+}
+form button{
+    width: 300px;
+    height: 30px;
+    background-color:rgb(38, 125, 184);
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+
+}
+form a{
+    color:rgb(38, 125, 184);
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 700px;
+    text-decoration: none;
+}
+form hr{
+    width: 300px;
+    height: 1px;
+    margin-top: 20px;
+}
+#btn{
+background-color:rgb(62, 64, 67) ;
+color: white;
+
+}
+form p{
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+}
+form span{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+form span hr{
+    width: 1px;
+    height: 15px;
+}
+form span a{
+    color: white
+}
+form span a:hover{
+    color:rgb(38, 125, 184);
+}
+form a:hover{
+    border-bottom: 1px solid rgb(38, 125, 184);
+}
+.right-child h1{
+    font-size: 50px;
+    color: white;
+}
+.right-child button{
+    width: 300px;
+    font-size:20px ;
+    height: 35px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+
+}
+
+
+@media (max-width:768px)
+{
+  
+    .mian-container{
+         width: 100%;
+         height: auto;
+         flex-wrap: wrap;
+    }
+    .left-child{
+        width: 100%;
+        height: auto;
+        padding-block: 20px;
+    }
+    .left-child p{
+        flex-wrap: wrap;
+    }
+
+    .right-child{
+        width: 100%;
+        height: 100vh;
+    }
+    .right-child h1{
+        font-size: 40px;
+
+    }
+}
+
+
+/* Responsive code */
+/* for Tablet */
+
+@media (max-width: 480px)
+{
+    .mian-container{
+        width: 100px;
+        min-height: auto;
+    }
+    .left-child{
+        width: 100%;
+        height: auto;
+        padding-block: 20px;
+    }
+    .right-child{
+        display: none;
+    }
+
+}
+
+    
